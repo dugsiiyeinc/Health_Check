@@ -16,26 +16,114 @@ body{
     width: 100%;
     max-width: 1140px;
     margin: 0   auto;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem    0;
 }
 
 header{
-    display: flex;
-    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    /* background-color: aqua; */
 }
 
-.Hamburger{
+.Hamburger-menu{
     display: none;
 }
 
-.navication{
+.navigation {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
+.navigation ul{
+    display: flex;
+    align-items: center;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-inline: 1.7rem;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    text-transform: capitalize;
+}
+
+.navigation ul li:hover{
+    border-radius: 8px;
+    background-color: rgba(248, 143, 5, 0.7);
+    font-style: italic;
+}
 
 .logo {
-    width: 8rem;
-    height: 8rem;
+    width: 5.2rem;
+    height: 5.2rem;
     background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+}
+
+@media(max-width: 991px){
+    header{
+        background-color: aqua;
+    }
+    .Hamburger-menu{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        padding: 1rem  1.25rem;
+        cursor: pointer;
+        
+    }
+
+    .Hamburger-menu i{
+        font-size: 1.5rem;
+    }
+
+    .navigation{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 4.375rem;
+        padding: 1.25rem    0;
+        text-align: center;
+        justify-content: center;
+        z-index: 2;
+        background-color: rgba(53, 240, 178, 0.7);
+        margin-top: 1.5rem;
+        width: 100%;
+    }
+
+    .navigation .logo{
+        display: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+        margin-left: 15rem;
+        margin-top: 0.5rem;
+     
+    }
+
+    .navigation.active{
+        display: flex;
+    }
+
+    
+
+    
 }
