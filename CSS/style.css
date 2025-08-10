@@ -18,3 +18,24 @@ body{
     margin: 0   auto;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.Hamburger{
+    display: none;
+}
+
+.navication{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.logo {
+    width: 8rem;
+    height: 8rem;
+    background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+}
