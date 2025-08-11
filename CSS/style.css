@@ -69,3 +69,11 @@ body{
 #colors4{
     background-color: #9bacc6;
 }
+
+
+.info p{
+    color: rgb(0,0,0);
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.5rem;
+}
