@@ -144,3 +144,20 @@ body{
 
 
 }
+
+/* Mobile styles (up to 480px) */
+
+@media(max-width: 480px){
+    .date-info{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 100%;
+        padding: 1rem   2rem;
+    }
+
+    .sawir{
+        width: 20rem;
+        height: 20rem;
+    }
+}
