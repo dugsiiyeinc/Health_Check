@@ -99,3 +99,15 @@ footer{
     align-items: center;
     /* gap: 1rem; */
 }
+
+.links-footer ul li{
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+
+.links-footer a{
+    text-decoration: none;
+    color: black;
+}
