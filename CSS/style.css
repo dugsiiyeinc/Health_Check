@@ -111,3 +111,10 @@ footer{
     text-decoration: none;
     color: black;
 }
+
+
+.logo {
+    width: 5.2rem;
+    height: 5.2rem;
+    background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+}
