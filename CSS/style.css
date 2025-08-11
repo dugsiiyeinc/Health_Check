@@ -85,6 +85,50 @@ body{
     font-style: italic;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: 1fr  3fr  1fr;
+    margin-top: 2rem;
+    align-items: center;
+    /* gap: 1rem; */
+}
+
+.links-footer ul li{
+    display: inline-block;
+    margin: 0 1rem;
+
+}
+
+.links-footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 5.2rem;
+    height: 5.2rem;
+    background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+}
+
+.last-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-1{
+    display: none;
+}
+
+
+/* tablet  */
+
 @media(max-width: 991px){
     .last-header{
         display: flex;
@@ -94,11 +138,29 @@ body{
         padding-inline: 1.5rem;
     }
 
+    footer{
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .last-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-1{
+        display: none;
+    }
+
+
+
 }
 
 @media(max-width: 480px){
     .footer1{
         height: 25rem;
+        display: none;
     }
 
     .last-header{
@@ -139,5 +201,35 @@ body{
     .subscribe button{
         width: 15rem;
         font-size: 1.5rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social-media{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .links-footer ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .last-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
     }
 }
