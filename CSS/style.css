@@ -35,7 +35,7 @@ header{
     position: relative;
     width: 100%;
     height: 6rem;
-    /* background-color: aqua; */
+    background: linear-gradient(47deg,rgba(71, 71, 245, 1) 15%, rgba(106, 250, 40, 1) 91%);
 }
 
 .Hamburger-menu{
@@ -68,16 +68,19 @@ header{
     font-style: italic;
 }
 
-.logo {
-    width: 5.2rem;
-    height: 5.2rem;
-    background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+.logo-header i{
+    font-size: 3rem;
+    color: rgba(250, 4, 16, 0.7);
+   
+    
 }
 
 @media(max-width: 991px){
+
     header{
-        background-color: aqua;
+        width: 100%;
     }
+
     .Hamburger-menu{
         display: flex;
         justify-content:space-between;
@@ -100,12 +103,12 @@ header{
         text-align: center;
         justify-content: center;
         z-index: 2;
-        background-color: rgba(53, 240, 178, 0.7);
+        background-color: rgba(53, 240, 178, 0.4);
         margin-top: 1.5rem;
         width: 100%;
     }
 
-    .navigation .logo{
+    .navigation .logo-header{
         display: none;
     }
 
@@ -126,4 +129,26 @@ header{
     
 
     
+}
+
+/* mobile  */
+
+@media(max-width: 480px){
+
+    header{
+        width: 100%;
+    }
+    
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: flex-start;
+        margin-left: 1rem;
+        margin-top: 0.5rem;
+     
+    }
+
+
 }
