@@ -28,3 +28,24 @@ body{
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+.color-info{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sawir{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz2GTflsG2-p_POGUXh-nJidrlSqUsfyC-P109EXR41twfYwuk)center / cover no-repeat;
+    width: 12rem;
+    height: 12rem;
+}
+
+.colors{
+    background-color: aqua;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
