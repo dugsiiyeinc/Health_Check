@@ -77,3 +77,70 @@ body{
     text-align: justify;
     line-height: 1.5rem;
 }
+
+/* Tablet styles (up to 991px) */
+
+@media(max-width: 991px){
+    .date-info{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 1rem   2rem;
+        
+
+    }
+
+    .sawir{
+        margin: 1rem    auto;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .date{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8rem;
+        margin: 1rem    auto;
+        /* align-items: center; */
+    }
+
+    .date-1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem    auto;
+
+    }
+
+    .colors {
+        background-color: aqua;
+        width: 7rem;
+        height: 7rem;
+        border-radius: 50%;
+    
+    }
+
+    .date-1 h1{
+        font-size: 2rem;
+    }
+
+    .date-1 p{
+        color: rgba(0, 0, 0, 0.7);
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 1.5rem;
+    }
+
+    .info p{
+        color: rgb(0,0,0);
+        font-weight: 600;
+        font-size: 1.8rem;
+        text-align: justify;
+        line-height: 1.8rem;
+    }
+
+
+
+
+
+}
