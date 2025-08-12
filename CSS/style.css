@@ -114,9 +114,13 @@ footer{
 
 
 .logo {
-    width: 5.2rem;
+    /* width: 5.2rem;
     height: 5.2rem;
     background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
+     */
+
+    font-size: 3rem;
+    color: rgba(250, 4, 16, 0.7);
 }
 
 .last-footer {
@@ -153,7 +157,7 @@ footer{
     }
 
     .social-1{
-        display: none;
+        display: flex;
     }
 
 
