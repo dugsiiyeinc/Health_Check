@@ -98,3 +98,20 @@ h1{
 
 
 }
+.features{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+    padding: 1rem;
+}
+.ft{
+    display: flex;
+    /* align-items: center;
+    justify-content: center;
+    text-align: center; */
+    padding: 0;
+   
+    
+
+    
+}
