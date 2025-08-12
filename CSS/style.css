@@ -18,12 +18,102 @@ body{
     margin: 0   auto;
 }
 
+.prices{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 35rem;
+    border-top: 1px solid rgba(41, 41, 41, 0.4);
+    margin-top: 1rem;
+}
+
+.price-health{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 1rem; */
+}
+
+.box-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    border: 1px solid rgba(41, 41, 41, 0.2);
+    border-radius: 8px;
+    padding: 0   1.5rem;
+    width: 21rem;
+    height: 28rem;
+
+}
+
+.box-price-1{
+    position: relative;
+    border: 1px solid rgba(36, 176, 181, 0.6);
+}
+
+.box-price-1 button{
+    background-color: #24afb5;
+}
+
+.popular{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem     1rem;
+    background-color: #24afb5;
+    border-radius: 10px;
+    font-weight: 200;
+    text-transform: capitalize;
+
+}
+
+.box-price .Feature{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: centr;
+    gap: 0.5rem;
+}
+
+.btn button{
+    font-size: 1.25rem;
+    padding: 0.5rem   1.2rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn checkbox{
+    font-size: 1.5rem;
+}
+
+.prices h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.prices p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.prices h1 em{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
 
 .footer1, .footer2{
     border-top: 1px solid rgba(41, 41, 41, 0.4);
     height: 20rem;
     margin-top: 2rem;
-    height: 20rem;
 }
 
 .last-header{
@@ -114,11 +204,6 @@ footer{
 
 
 .logo {
-    /* width: 5.2rem;
-    height: 5.2rem;
-    background: url(https://www.nyhealthinsurer.com/wp-content/uploads/2012/05/heart-health.jpg) center / cover no-repeat;
-     */
-
     font-size: 3rem;
     color: rgba(250, 4, 16, 0.7);
 }
@@ -137,6 +222,24 @@ footer{
 /* tablet  */
 
 @media(max-width: 991px){
+    .prices{
+        width: 100%;
+        padding: 1rem;
+        height: 100%;
+        margin-top: 1rem;
+    }
+
+    .price-health{
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    .box-price{
+        width: 100%;
+        
+        
+    }
     .last-header{
         display: flex;
         flex-direction: column;
@@ -166,6 +269,17 @@ footer{
 
 
 @media(max-width: 480px){
+    .prices{
+        width: 100%;
+    }
+
+    .price-health{
+        width: 100%;
+        /* display: flex; */
+        flex-direction: column;
+    }
+
+
     .footer1{
         height: 25rem;
         /* display: none; */
