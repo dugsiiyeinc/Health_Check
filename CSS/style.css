@@ -164,7 +164,7 @@ footer{
 @media(max-width: 480px){
     .footer1{
         height: 25rem;
-        display: none;
+        /* display: none; */
     }
 
     .last-header{
