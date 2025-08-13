@@ -82,7 +82,12 @@ i {
   margin: 1rem;
 }
 @media (min-width: 481px) and (max-width: 991px){
-    
+    .content{
+        grid-template-columns:1fr;
+        gap: 1rem;
+        width: 100%;
+    }
+
 }
 
 
