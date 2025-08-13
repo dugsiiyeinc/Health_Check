@@ -120,4 +120,12 @@ i {
         width: 100%;
         height: 20rem;
     }
+    .ft {
+       
+        margin: 0;
+        padding: 0;
+    }
+     .ft ,.headline{
+        font-size: 1.7rem;
+    }
 }
