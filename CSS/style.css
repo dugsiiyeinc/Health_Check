@@ -47,3 +47,27 @@ body {
     height: 30rem;
     border-radius:0.5rem ;
 }
+.info-2{
+    text-align: center;
+    padding: 2rem;
+}
+.info-2 h2{
+    font-size: 4rem;
+    color: #d3d9da;
+    margin: 3rem;
+}
+.info-2 , h3{
+    font-size: 3rem;
+    margin: 1rem 0 0 0;
+}
+info-2  p{
+    margin-bottom: 2rem;
+    color: #7e9496;
+}
+.info-2 a{
+    color: #25afb5;
+    font-size: 2rem;
+    text-decoration: none;
+    
+    
+}
