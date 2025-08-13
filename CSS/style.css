@@ -135,4 +135,7 @@ i {
        padding: 0;
        
     }
+    .rating p{
+        font-size: 1rem;
+    }
 }
