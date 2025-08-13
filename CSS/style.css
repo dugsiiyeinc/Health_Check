@@ -111,4 +111,9 @@ i {
         font-size: 1.2rem;
         padding: 0 1rem;
     }
+    .features{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
 }
