@@ -81,4 +81,8 @@ h6 {
 i {
   margin: 1rem;
 }
+@media (min-width: 481px) and (max-width: 991px){
+    
+}
+
 
