@@ -87,6 +87,11 @@ i {
         gap: 1rem;
         width: 100%;
     }
+    .hero-header {
+        margin-top: 1rem;
+        font-size: 2rem;
+        
+    }
 
 }
 
