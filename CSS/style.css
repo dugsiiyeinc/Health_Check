@@ -116,4 +116,8 @@ i {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .feature-image{
+        width: 100%;
+        height: 20rem;
+    }
 }
