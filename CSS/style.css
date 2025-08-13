@@ -282,6 +282,7 @@ h1 {
   margin-top: 0;
   text-align: center;
   font-size: 2.5rem;
+  text-transform: capitalize;
 }
 .shrt-heading p {
   text-align: center;
@@ -314,10 +315,17 @@ h1 {
     font-size: 4rem;
     color: #d3d9da;
     margin: 3rem;
+    text-transform: capitalize;
 }
-.info-2 , h3{
-    font-size: 3rem;
-    margin: 1rem 0 0 0;
+.info-2 h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+}
+
+.info-2 h6{
+    font-size: 1rem;
+    text-transform: capitalize;
 }
 .info-2 p{
     margin-bottom: 2rem;
@@ -330,14 +338,9 @@ h1 {
     
     
 }
-h6{
-    color: #7e9496;
-    font-style: italic;
-    font-weight: 400;
-    margin-bottom: 3rem;
-}
+
 .info-2 span , i {
-     margin: 1rem;
+    margin: 1rem;
 }
 
 /* price  */
@@ -363,7 +366,7 @@ h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.8rem;
+    gap: 1rem;
     border: 1px solid rgba(41, 41, 41, 0.2);
     border-radius: 8px;
     padding: 0   1.5rem;
@@ -413,6 +416,11 @@ h6{
     border-radius: 8px;
 }
 
+.box-price .btn button:hover{
+    background-color: rgba(248, 143, 5, 0.7);
+    cursor: pointer;
+}
+
 .box-price .btn checkbox{
     font-size: 1.5rem;
 }
@@ -424,6 +432,7 @@ h6{
 
 .prices p{
     color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
 }
 
 .prices h1 em{
