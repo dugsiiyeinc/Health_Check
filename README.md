@@ -1,9 +1,9 @@
-# 🌐 Coffee Time Website
+# 🌐 Health_check
 
 A collaborative student project built using **HTML** and **CSS** — our first milestone in web development!  
 Designed and developed by **Mohamad Ali** & **Kafia Abdiqani** as part of our coursework at [Dugsiiye](https://github.com/dugsiiyeinc/coffe_time).
 
-🚀 Check it out live: [https://coffe-time-drab.vercel.app](https://coffe-time-drab.vercel.app/)
+🚀 Check it out live: [https://health-check-eight-lake.vercel.app/](https://health-check-eight-lake.vercel.app/)
 
 ---
 
