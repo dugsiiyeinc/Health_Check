@@ -1,7 +1,7 @@
 # 🌐 Health_check
 
 A collaborative student project built using **HTML** and **CSS** — our first milestone in web development!  
-Designed and developed by **Mohamad Ali** & **Kafia Abdiqani** as part of our coursework at [Dugsiiye](https://github.com/dugsiiyeinc/coffe_time).
+Designed and developed by **Mohamad Ali** & **Kafia Abdiqani** as part of our coursework at [Dugsiiye](https://github.com/dugsiiyeinc/Health_Check).
 
 🚀 Check it out live: [https://health-check-eight-lake.vercel.app/](https://health-check-eight-lake.vercel.app/)
 
@@ -24,7 +24,7 @@ The design showcases personal information, interests, and skills — with simpli
 - **Mohamad Ali**  
 - **Kafia Abdiqani**
 
-Proud students of [Dugsiiye](https://github.com/dugsiiyeinc/coffe_time)
+Proud students of [Dugsiiye](https://github.com/dugsiiyeinc/Health_Check)
 
 ---
 
